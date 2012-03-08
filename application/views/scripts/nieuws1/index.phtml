@@ -1,0 +1,8 @@
+<h1>Nieuws</h1>
+<p>Van <?php echo $this->naam ?></p>
+<h1>Nieuwsberichten</h1>
+<?php foreach ($this->nieuws as $nieuws) { ?>
+<h2><?= $nieuws['titel']; ?></h2>
+<p><?= $nieuws['omschrijving']; ?></p>
+<?php } ?>
+
