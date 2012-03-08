@@ -29,6 +29,26 @@ class NieuwsController extends Zend_Controller_Action
     {
         $form = new Application_Form_Nieuws();
         $this->view->form = $form;
+        
+        if ($this->getRequest()->isPost()) {
+            // haal alle post variabelen op 
+            $postParams = $this->getRequest()->getPost();
+            if ($this->view->form->isValid($postParams)){
+                $params = $this->view->form->getValues();
+                
+                // query maken
+                $sql = "insert into nieuws (titel,omschrijving,datum) 
+                        VALUES 
+                        ('".$params['titel']."', '".$params['omschrijving']."', '".$params['datum']."')";
+                
+                $db = Zend_Registry::get('db');
+                // query uitvoeren
+                $db->query($sql);
+                
+                echo 'uw bericht werd toegevoegd!';
+                
+            }
+        }
     }
 
 
