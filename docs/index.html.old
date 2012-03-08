@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Combi webmaster-expert</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		<div id="header-left">
+			<div id="menu-left-top"></div>
+			<div id="menu-left-bottom"></div>
+		</div>
+		<div id="header-right">
+			<div id="menu-right-top">
+				<ul>
+					<li class="home"><a href="#">Home</a></li>
+					<li class="email"><a href="#">E-mail</a></li>
+					<li class="sitemap"><a href="#">site map</a></li>
+				</ul>
+			</div>
+			<div id="menu-right-middle">
+				<ul>
+					<li class="button-1"><a href="#">SERVICES</a></li>
+					<li class="button-2"><a href="#">SOLUTIONS</a></li>
+					<li class="button-3"><a href="#">CAREERS</a></li>
+					<li class="button-4"><a href="#">SUCCESS</a></li>
+				</ul>
+			</div>
+			<div id="menu-right-bottom">Perfect conditions are provided</div>
+		</div>
+	</div>
+	<div id="content">
+		<div id="content-left">
+			<div id="content-left-top"><img src="images/content-foto.gif" alt="content foto" /></div>
+			<div id="content-left-bottom">
+			  <p>Phone : 800 : 284 : 246</p>
+			  <p>Address : 901 East ,E Street</p>
+			  <strong>washington.(A 90)</strong>
+			 <p> E-mail : www. company name. com</p>
+			</div>
+		</div>
+		<div id="content-right">
+			<div id="content-right-top">
+			  <h1>WHAT ARE WE </h1>
+			  <p><strong>DEMO GOES HERE FOR REPLACING</strong></p>
+			  <p>&nbsp;</p>
+			  <p>
+This is the demo text of what we are, this text will replace with the company original text, our expert will help to change contain. This is the demo text of what we are, this text will replace with the company original text, our expert will help to change contain.This is the demo text of what we are.</p>
+			  <p>&nbsp;</p>
+			  <p><a href="#" class="red">>> learn more</a></p>
+			</div>
+			<div id="content-right-middle">
+			  <div id="content-right-middle-left">
+			    <h2>DYNAMIC DEVELOPMENT </h2>
+				<img src="images/development-icon.gif" alt="development" class="img-left" />
+				<p>This is the demo text of dynamic development, this text will replace with company original text.</p>
+				<p>&nbsp;</p>
+				<p><a href="#" class="red">>> learn more</a></p>
+			  </div>
+  			  <div id="content-right-middle-center"></div>
+			  <div id="content-right-middle-right">
+			    <h2>BEST SOLUTION </h2>
+				<img src="images/solution-icon.gif" alt="solution" class="img-left"/>
+				<p>This is the demo text of dynamic development, this text will replace with company original text.</p>
+				<p>&nbsp;</p>
+				<p><a href="#" class="red">>> learn more</a></p>
+			  </div>
+			</div>
+			<div id="content-right-bottom">
+			  <img src="images/inthespotlight.gif" width="468" height="27" alt="spotlight" />
+			  <img src="images/spotlight-foto.gif" width="55" height="82" alt="spotlight foto" class="img-left"/>
+			  <p><strong>December 20, 2005<br />
+Demo text goes here for replacing.</strong></p>
+<p>The demo text goes here for replacing.The demo text goes here for replacing.The demo text goes here for replacing.The demo text goes here for replacing.</p>
+		  </div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footer-left">Financial company &copy; 2005. Privacy policy.</div>
+		<div id="footer-right">Home | About us | Services | Solution | Careers | Success | Contacts
+Privacy Policy | Terms of Use</div>
+	</div>
+</div>
+</body>
+</html>
