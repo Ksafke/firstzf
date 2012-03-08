@@ -62,6 +62,16 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         
         //return $container;
     }
+    
+    public function _initDbAdapter(){
+        $this->bootstrap('db');
+        $db = $this->getResource('db');
+        // maak een soort global variabele aan
+        Zend_Registry::set('db', $db);
+        
+        // waar nodig 
+        // $db = Zend_Registry::get('db');
+    }
 
 }
 

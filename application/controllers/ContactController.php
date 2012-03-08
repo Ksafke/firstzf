@@ -19,11 +19,26 @@ class ContactController extends Zend_Controller_Action
             $postParams = $this->getRequest()->getPost();
             if ($this->view->form->isValid($postParams)){
                 $params = $this->view->form->getValues();
+              
+                // body text maken
                 
-                echo '<pre>';
-                print_r($params);
-                echo '</pre>';
-                die();
+                $body = "<p>Info via de website</p>";
+                $body .= "<p>Naam: ".$params['voornaam']. " " . $params['naam']. "</p>";
+                $body .= "<p>E-mail: ".$params['email']. "</p>";
+                
+                //$transport = new Zend_Mail_Transport_Smtp('mail.dx-solutions.be');
+                
+                // mail instellen
+                $mail = new Zend_Mail();
+                $mail->addTo('xavier@dx-solutions.be');
+                $mail->setSubject('Mail van de site');
+                $mail->setBodyHtml($body);
+                $mail->setFrom($params['email']);
+                //$mail->send($transport); // mail versturen
+                $mail->send(); // mail versturen
+                
+                echo "<p>Uw mail werd verzonden!";
+                
             }
         }
     }
