@@ -27,7 +27,8 @@ class NieuwsController extends Zend_Controller_Action
 
     public function toevoegenAction()
     {
-        // action body
+        $form = new Application_Form_Nieuws();
+        $this->view->form = $form;
     }
 
 

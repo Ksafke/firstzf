@@ -35,6 +35,8 @@
       </controllersDirectory>
       <formsDirectory>
         <formFile formName="Contact"/>
+        <formFile formName="Nieuws"/>
+        <formFile formName="Nieuws1"/>
       </formsDirectory>
       <layoutsDirectory>
         <layoutScriptsDirectory>
