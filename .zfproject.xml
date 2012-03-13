@@ -16,6 +16,7 @@
         <controllerFile controllerName="Nieuws">
           <actionMethod actionName="index"/>
           <actionMethod actionName="toevoegen"/>
+          <actionMethod actionName="wijzigen"/>
         </controllerFile>
         <controllerFile controllerName="Services">
           <actionMethod actionName="index"/>
@@ -84,6 +85,9 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Nieuws1">
             <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Nieuws">
+            <viewScriptFile forActionName="wijzigen"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>
